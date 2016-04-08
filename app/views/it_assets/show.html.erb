@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @it_asset.category %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @it_asset.name %>
+</p>
+
+<p>
+  <strong>Needs:</strong>
+  <%= @it_asset.needs.map(&:name).to_sentence %>
+  <br>
+  <ul>
+    <% @it_asset.needs.each do |need| %>
+      <li><%= link_to need.name, need %></li>
+    <% end %>
+  </ul>
+</p>
+
+<%= link_to 'Edit', edit_it_asset_path(@it_asset) %> |
+<%= link_to 'Back', it_assets_path %>

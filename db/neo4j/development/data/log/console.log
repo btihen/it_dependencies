@@ -1,0 +1,6 @@
+2016-04-08 20:50:36.598+0200 INFO  No SSL certificate found, generating a self-signed certificate..
+2016-04-08 20:50:40.505+0200 INFO  Successfully started database
+2016-04-08 20:50:40.543+0200 INFO  Starting HTTP on port 7406 (8 threads available)
+2016-04-08 20:50:40.883+0200 INFO  Mounting static content at /webadmin
+2016-04-08 20:50:40.941+0200 INFO  Mounting static content at /browser
+2016-04-08 20:50:41.894+0200 INFO  Remote interface ready and available at http://localhost:7406/

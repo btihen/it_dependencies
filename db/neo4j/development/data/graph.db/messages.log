@@ -1,0 +1,799 @@
+2016-04-08 18:48:25.679+0000 INFO  [o.n.k.i.l.StoreLogService] Opened new internal log file
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: Community StoreId{creationTime=1460140776753, randomId=8945096361676127000, storeVersion=15250506225055238, upgradeTime=1460140776753, upgradeId=1}
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 2.3.3,4623254
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.https.keystore.location=data/keystore
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=conf/neo4j.properties
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=data/graph.db
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.port=7406
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.http.log.config=conf/neo4j-http-logging.xml
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.https.enabled=false
+2016-04-08 18:48:25.680+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.http.log.enabled=false
+2016-04-08 18:48:25.681+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=conf/ssl/snakeoil.cert
+2016-04-08 18:48:25.681+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.https.port=7405
+2016-04-08 18:48:25.681+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webadmin.rrdb.location=data/rrd
+2016-04-08 18:48:25.681+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2016-04-08 18:48:25.682+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=conf/ssl/snakeoil.key
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=false
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] KernelDiagnostics:Versions
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2016-04-08 18:48:25.683+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] NEO_STORE_VERSIONS
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] NEO_STORE_ID_USAGE
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] NEO_STORE_RECORDS
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] TRANSACTION_RANGE
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] KernelDiagnostics:StoreFiles
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 438.33 MB
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 6.92 GB
+2016-04-08 18:48:25.684+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 4.00 GB
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 970.25 MB
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 91.19 MB
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 256.00 MB
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 4.00 GB
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen, G1 Perm Gen]
+2016-04-08 18:48:25.685+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.51 MB, max=48.00 MB, threshold=0.00 B
+2016-04-08 18:48:25.686+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=108.00 MB, used=55.00 MB, max=-1.00 B, threshold=?
+2016-04-08 18:48:25.686+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=16.00 MB, used=16.00 MB, max=-1.00 B, threshold=?
+2016-04-08 18:48:25.687+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=132.00 MB, used=93.00 MB, max=4.00 GB, threshold=0.00 B
+2016-04-08 18:48:25.687+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Perm Gen (Non-heap memory): committed=45.00 MB, used=44.28 MB, max=82.00 MB, threshold=0.00 B
+2016-04-08 18:48:25.687+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2016-04-08 18:48:25.687+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.11.4; arch: x86_64; cpus: 8
+2016-04-08 18:48:25.687+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2016-04-08 18:48:25.688+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 237.00 B
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 52982@localhost
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Zurich
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.45-b08
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:hashCode=5, -Dneo4j.ext.udc.source=tarball, -Dneo4j.home=/Users/btihen/dev/ruby/it_needs/db/neo4j/development, -Dneo4j.instance=/Users/btihen/dev/ruby/it_needs/db/neo4j/development, -Dfile.encoding=UTF-8]
+2016-04-08 18:48:25.690+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/netty-all-4.0.28.Final.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-io-2.3.3.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/logback-access-1.1.2.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/slf4j-api-1.7.6.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/rrd4j-2.2.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/rhino-1.7R4.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-xml-9.2.9.v20150224.jar
+2016-04-08 18:48:25.696+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-import-tool-2.3.3.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/neo4j-server-2.3.3.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-frontend-2.3-2.3.3.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/logback-classic-1.1.2.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-graph-matching-2.3.3.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-compiler-2.2_2.11-2.2.6.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jackson-mapper-asl-1.9.13.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-lang-2.6.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-http-9.2.9.v20150224.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-servlet-9.2.9.v20150224.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/classes
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-configuration-1.10.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/javax.servlet-api-3.1.0.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/parboiled-core-1.1.7.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/neo4j-server-2.3.3-static-web.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/conf/
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfr.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/lucene-core-3.6.2.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-io-2.4.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-shell-2.3.3.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-consistency-check-legacy-2.3.3.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jce.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/JObjC.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-codegen-2.3.3.jar
+2016-04-08 18:48:25.697+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/asm-5.0.2.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-server-9.2.9.v20150224.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-logging-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/opencsv-2.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-core-1.19.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-csv-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-lucene-index-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jackson-core-asl-1.9.13.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-jmx-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-compiler-1.9_2.11-2.0.5.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/parboiled-scala_2.11-1.1.7.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-graph-algo-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-util-9.2.9.v20150224.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-webapp-9.2.9.v20150224.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/scala-library-2.11.7.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/resources.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/scala-parser-combinators_2.11-1.0.4.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-multipart-1.19.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-digester-2.1.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-primitive-collections-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-function-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/bcpkix-jdk15on-1.52.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jsse.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/server-api-2.3.3.jar
+2016-04-08 18:48:25.698+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-consistency-check-2.3.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-unsafe-2.3.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/charsets.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-beanutils-1.8.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-udc-2.3.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/mimepull-1.9.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-server-1.19.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-compiler-2.3-2.3.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/neo4j-browser-2.3.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/jline-2.12.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-io-9.2.9.v20150224.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jackson-jaxrs-1.9.13.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-servlet-1.19.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/scala-reflect-2.11.7.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-logging-1.1.1.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/logback-core-1.1.2.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-security-9.2.9.v20150224.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-kernel-2.3.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jsr311-api-1.1.2.r612.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-2.3.3.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/bcprov-jdk15on-1.52.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/commons-lang3-3.3.2.jar
+2016-04-08 18:48:25.699+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/btihen/Library/Java/Extensions
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country.format = CH
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.properties = conf/neo4j-server.properties
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = US
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = tarball
+2016-04-08 18:48:25.700+0000 INFO  [o.n.k.i.DiagnosticsManager] log4j.configuration = file:conf/log4j.properties
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/btihen
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Zurich
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = btihen
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityBootstrapper
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.instance = /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.home = /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2016-04-08 18:48:25.701+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:602a:d4ff:fe5b:63e6%8
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en4:
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aa20:66ff:fe04:d39c%9
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.190.39.251
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:2acf:e9ff:fe18:9ab3%4
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.180.28.158
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2016-04-08 18:48:25.702+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] NodeStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyIndexStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipTypeStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] LabelTokenStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] SchemaStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipGroupStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] NeoStore v0.A.6
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-08 18:48:25.703+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.6: used=0 high=-1
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.6: used=0 high=-1
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.6: used=0 high=-1
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.6: used=0 high=-1
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.6: used=0 high=-1
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.6: used=0 high=-1
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.6: used=1 high=0
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.6: used=13 high=12
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1460140776753
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 8945096361676127000
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15250506225055238
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2016-04-08 18:48:25.705+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1460140776753
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 750046937088 / 41581891584 / 5
+Storage files: (filename : modification date - size)
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager]   messages.log: 2016-04-08T20:48:25+0200 - 32.09 kB
+2016-04-08 18:48:25.706+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2016-04-08 18:48:25.707+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2016-04-08 18:48:25.707+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2016-04-08 18:48:25.707+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments.gen: 2016-04-08T20:48:25+0200 - 20.00 B
+2016-04-08 18:48:25.707+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments_1: 2016-04-08T20:48:25+0200 - 32.00 B
+2016-04-08 18:48:25.708+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2016-04-08T20:48:25+0200 - 52.00 B
+2016-04-08 18:48:25.708+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-04-08T20:48:25+0200 - 52.00 B
+2016-04-08 18:48:25.708+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-04-08T20:48:25+0200 - 52.00 B
+2016-04-08 18:48:25.708+0000 INFO  [o.n.k.i.l.StoreLogService] Rotated internal log file
+2016-04-08 18:48:25.713+0000 INFO  [o.n.k.NeoStoreDataSource] NeoStores closed
+2016-04-08 18:48:25.713+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2016-04-08 18:48:25.713+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2016-04-08 18:50:37.359+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2016-04-08 18:50:37.482+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2016-04-08 18:50:37.490+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2016-04-08 18:50:37.490+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.https.keystore.location=data/keystore
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=conf/neo4j.properties
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=data/graph.db
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.port=7406
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.http.log.config=conf/neo4j-http-logging.xml
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.https.enabled=false
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.http.log.enabled=false
+2016-04-08 18:50:37.492+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=conf/ssl/snakeoil.cert
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webserver.https.port=7405
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.webadmin.rrdb.location=data/rrd
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=conf/ssl/snakeoil.key
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=false
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2016-04-08 18:50:37.493+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2016-04-08 18:50:37.494+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2016-04-08 18:50:37.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2016-04-08 18:50:37.498+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 1.11 GB
+2016-04-08 18:50:37.498+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 6.91 GB
+2016-04-08 18:50:37.498+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 4.00 GB
+2016-04-08 18:50:37.499+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 1.04 GB
+2016-04-08 18:50:37.499+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2016-04-08 18:50:37.499+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 179.73 MB
+2016-04-08 18:50:37.499+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 256.00 MB
+2016-04-08 18:50:37.499+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 4.00 GB
+2016-04-08 18:50:37.501+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2016-04-08 18:50:37.501+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen, G1 Perm Gen]
+2016-04-08 18:50:37.502+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=869.63 kB, max=48.00 MB, threshold=0.00 B
+2016-04-08 18:50:37.502+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=45.00 MB, used=35.00 MB, max=-1.00 B, threshold=?
+2016-04-08 18:50:37.503+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=2.00 MB, used=2.00 MB, max=-1.00 B, threshold=?
+2016-04-08 18:50:37.503+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=209.00 MB, used=39.21 MB, max=4.00 GB, threshold=0.00 B
+2016-04-08 18:50:37.504+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Perm Gen (Non-heap memory): committed=20.00 MB, used=12.47 MB, max=82.00 MB, threshold=0.00 B
+2016-04-08 18:50:37.504+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2016-04-08 18:50:37.504+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.11.4; arch: x86_64; cpus: 8
+2016-04-08 18:50:37.505+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2016-04-08 18:50:37.505+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 85.00 B
+2016-04-08 18:50:37.510+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 54252@localhost
+2016-04-08 18:50:37.510+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2016-04-08 18:50:37.510+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Zurich
+2016-04-08 18:50:37.511+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2016-04-08 18:50:37.511+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2016-04-08 18:50:37.511+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2016-04-08 18:50:37.511+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.45-b08
+2016-04-08 18:50:37.511+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2016-04-08 18:50:37.512+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:hashCode=5, -Dneo4j.ext.udc.source=tarball, -Dneo4j.home=/Users/btihen/dev/ruby/it_needs/db/neo4j/development, -Dneo4j.instance=/Users/btihen/dev/ruby/it_needs/db/neo4j/development, -Dfile.encoding=UTF-8]
+2016-04-08 18:50:37.512+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2016-04-08 18:50:37.514+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/netty-all-4.0.28.Final.jar
+2016-04-08 18:50:37.514+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-io-2.3.3.jar
+2016-04-08 18:50:37.514+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/logback-access-1.1.2.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/slf4j-api-1.7.6.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/rrd4j-2.2.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/rhino-1.7R4.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-xml-9.2.9.v20150224.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-import-tool-2.3.3.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/neo4j-server-2.3.3.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-frontend-2.3-2.3.3.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/logback-classic-1.1.2.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-graph-matching-2.3.3.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-compiler-2.2_2.11-2.2.6.jar
+2016-04-08 18:50:37.515+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jackson-mapper-asl-1.9.13.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-lang-2.6.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-http-9.2.9.v20150224.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-servlet-9.2.9.v20150224.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/classes
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-configuration-1.10.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/javax.servlet-api-3.1.0.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/parboiled-core-1.1.7.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/neo4j-server-2.3.3-static-web.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/conf/
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfr.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/lucene-core-3.6.2.jar
+2016-04-08 18:50:37.516+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-io-2.4.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-shell-2.3.3.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-consistency-check-legacy-2.3.3.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jce.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/JObjC.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-codegen-2.3.3.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/asm-5.0.2.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-server-9.2.9.v20150224.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-logging-2.3.3.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/opencsv-2.3.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-core-1.19.jar
+2016-04-08 18:50:37.517+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-csv-2.3.3.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-lucene-index-2.3.3.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jackson-core-asl-1.9.13.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-jmx-2.3.3.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-compiler-1.9_2.11-2.0.5.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/parboiled-scala_2.11-1.1.7.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-graph-algo-2.3.3.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-util-9.2.9.v20150224.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-webapp-9.2.9.v20150224.jar
+2016-04-08 18:50:37.518+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/scala-library-2.11.7.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/resources.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/scala-parser-combinators_2.11-1.0.4.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-multipart-1.19.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-digester-2.1.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-primitive-collections-2.3.3.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-function-2.3.3.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/bcpkix-jdk15on-1.52.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jsse.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/server-api-2.3.3.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-consistency-check-2.3.3.jar
+2016-04-08 18:50:37.519+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-unsafe-2.3.3.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/charsets.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-beanutils-1.8.3.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-udc-2.3.3.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/mimepull-1.9.3.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-server-1.19.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-compiler-2.3-2.3.3.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/neo4j-browser-2.3.3.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/jline-2.12.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-io-9.2.9.v20150224.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2016-04-08 18:50:37.520+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jackson-jaxrs-1.9.13.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jersey-servlet-1.19.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/scala-reflect-2.11.7.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/commons-logging-1.1.1.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/logback-core-1.1.2.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jetty-security-9.2.9.v20150224.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-kernel-2.3.3.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/jsr311-api-1.1.2.r612.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/neo4j-cypher-2.3.3.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/system/lib/bcprov-jdk15on-1.52.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/btihen/dev/ruby/it_needs/db/neo4j/development/lib/commons-lang3-3.3.2.jar
+2016-04-08 18:50:37.521+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2016-04-08 18:50:37.522+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/btihen/Library/Java/Extensions
+2016-04-08 18:50:37.522+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2016-04-08 18:50:37.522+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2016-04-08 18:50:37.522+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2016-04-08 18:50:37.522+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2016-04-08 18:50:37.522+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:50:37.522+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country.format = CH
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.properties = conf/neo4j-server.properties
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = US
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2016-04-08 18:50:37.523+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = tarball
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] log4j.configuration = file:conf/log4j.properties
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/btihen
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Zurich
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = btihen
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityBootstrapper
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2016-04-08 18:50:37.524+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.instance = /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.home = /Users/btihen/dev/ruby/it_needs/db/neo4j/development
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2016-04-08 18:50:37.525+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2016-04-08 18:50:37.527+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:602a:d4ff:fe5b:63e6%8
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en4:
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aa20:66ff:fe04:d39c%9
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.190.39.251
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:2acf:e9ff:fe18:9ab3%4
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.180.28.158
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2016-04-08 18:50:37.528+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2016-04-08 18:50:37.529+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2016-04-08 18:50:37.529+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2016-04-08 18:50:37.529+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2016-04-08 18:50:38.155+0000 INFO  [o.n.k.NeoStoreDataSource] Opened logical log [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.transaction.db.0] version=0, lastTxId=1 (clean)
+2016-04-08 18:50:38.162+0000 WARN  [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2016-04-08 18:50:38.271+0000 INFO  [o.n.k.KernelHealth] Kernel health set to OK
+2016-04-08 18:50:38.688+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2016-04-08 18:50:38.689+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] Database is now ready
+2016-04-08 18:50:38.690+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2016-04-08 18:50:38.690+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: Community StoreId{creationTime=1460141437894, randomId=8192145054534403269, storeVersion=15250506225055238, upgradeTime=1460141437894, upgradeId=1}
+2016-04-08 18:50:38.690+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 2.3.3,4623254
+2016-04-08 18:50:38.690+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2016-04-08 18:50:38.692+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] NodeStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyIndexStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipStore v0.A.6
+2016-04-08 18:50:38.693+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipTypeStore v0.A.6
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] LabelTokenStore v0.A.6
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] SchemaStore v0.A.6
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipGroupStore v0.A.6
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] NeoStore v0.A.6
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-08 18:50:38.694+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-08 18:50:38.695+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.695+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.6: used=0 high=-1
+2016-04-08 18:50:38.695+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.695+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.6: used=0 high=-1
+2016-04-08 18:50:38.695+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.695+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.696+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.6: used=0 high=-1
+2016-04-08 18:50:38.696+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.6: used=0 high=-1
+2016-04-08 18:50:38.696+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.696+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.6: used=0 high=-1
+2016-04-08 18:50:38.697+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.697+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.6: used=0 high=-1
+2016-04-08 18:50:38.697+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.697+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.6: used=1 high=0
+2016-04-08 18:50:38.697+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.6: used=13 high=12
+2016-04-08 18:50:38.698+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2016-04-08 18:50:38.698+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2016-04-08 18:50:38.698+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2016-04-08 18:50:38.698+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1460141437894
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 8192145054534403269
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15250506225055238
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1460141437894
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2016-04-08 18:50:38.699+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2016-04-08 18:50:38.700+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2016-04-08 18:50:38.700+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2016-04-08 18:50:38.700+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2016-04-08 18:50:38.700+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2016-04-08 18:50:38.701+0000 INFO  [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2016-04-08 18:50:38.701+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2016-04-08 18:50:38.701+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2016-04-08 18:50:38.702+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 750046937088 / 41639362560 / 5
+Storage files: (filename : modification date - size)
+2016-04-08 18:50:38.703+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2016-04-08 18:50:38.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-04-08T20:50:38+0200 - 0.00 B
+2016-04-08 18:50:38.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   messages.log: 2016-04-08T20:50:38+0200 - 68.27 kB
+2016-04-08 18:50:38.704+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.705+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2016-04-08T20:50:38+0200 - 96.00 B
+2016-04-08 18:50:38.705+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.706+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2016-04-08T20:50:37+0200 - 0.00 B
+2016-04-08 18:50:38.706+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.706+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.707+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.707+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2016-04-08T20:50:37+0200 - 0.00 B
+2016-04-08 18:50:38.707+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.708+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.708+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.708+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2016-04-08T20:50:37+0200 - 0.00 B
+2016-04-08 18:50:38.709+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.709+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.710+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.710+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2016-04-08T20:50:37+0200 - 0.00 B
+2016-04-08 18:50:38.710+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.711+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.711+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.712+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.712+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.712+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.712+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.713+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2016-04-08T20:50:37+0200 - 0.00 B
+2016-04-08 18:50:38.713+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.713+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2016-04-08T20:50:37+0200 - 0.00 B
+2016-04-08 18:50:38.714+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.714+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.714+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.715+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2016-04-08T20:50:37+0200 - 8.00 kB
+2016-04-08 18:50:38.715+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2016-04-08T20:50:37+0200 - 9.00 B
+2016-04-08 18:50:38.715+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2016-04-08T20:50:38+0200 - 16.00 B
+2016-04-08 18:50:38.715+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2016-04-08 18:50:38.716+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2016-04-08 18:50:38.716+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2016-04-08 18:50:38.716+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments.gen: 2016-04-08T20:48:25+0200 - 20.00 B
+2016-04-08 18:50:38.717+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments_1: 2016-04-08T20:48:25+0200 - 32.00 B
+2016-04-08 18:50:38.717+0000 INFO  [o.n.k.i.DiagnosticsManager]         write.lock: 2016-04-08T20:50:38+0200 - 0.00 B
+2016-04-08 18:50:38.717+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2016-04-08T20:50:38+0200 - 52.00 B
+2016-04-08 18:50:38.718+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-04-08T20:48:25+0200 - 52.00 B
+2016-04-08 18:50:38.718+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-04-08T20:48:25+0200 - 52.00 B
+2016-04-08 18:50:38.718+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2016-04-08T20:50:37+0200 - 0.00 B
+2016-04-08 18:50:38.718+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2016-04-08 18:50:40.507+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2016-04-08 18:50:41.895+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2016-04-08 18:58:46.503+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:ItAsset(uuid) [provider: {key=lucene, version=1.0}]]
+2016-04-08 18:58:46.516+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-04-08 18:58:46.522+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:ItAsset(uuid) [provider: {key=lucene, version=1.0}]]
+2016-04-08 18:58:46.538+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-04-08 18:58:46.568+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:ItAsset(name) [provider: {key=lucene, version=1.0}]]
+2016-04-08 18:58:46.571+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-04-08 18:58:46.572+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:ItAsset(name) [provider: {key=lucene, version=1.0}]]
+2016-04-08 18:58:46.574+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-04-08 18:58:48.413+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [8]:  Starting check pointing...
+2016-04-08 18:58:48.413+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [8]:  Starting store flush...
+2016-04-08 18:58:48.417+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 8 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 18:58:48.418+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 8 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 18:58:48.420+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [8]:  Store flush completed
+2016-04-08 18:58:48.420+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [8]:  Starting appending check point entry into the tx log...
+2016-04-08 18:58:48.421+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [8]:  Appending check point entry into the tx log completed
+2016-04-08 18:58:48.421+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [8]:  Check pointing completed
+2016-04-08 18:58:48.421+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 18:58:48.421+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:13:13.111+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) RETURN n
+2016-04-08 19:13:13.112+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(n),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,None))))
+2016-04-08 19:13:17.584+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (result_itasset:`ItAsset`) RETURN result_itasset ORDER BY result_itasset.category
+2016-04-08 19:13:17.585+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(result_itasset)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(result_itasset),List(LabelName(ItAsset)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(result_itasset),Identifier(  FRESHID40)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID40),Identifier(  FRESHID40)), AliasedReturnItem(Property(Identifier(  FRESHID40),PropertyKeyName(category)),Identifier(  FRESHID79)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID79))))),None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID40),Identifier(  FRESHID40)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID40),Identifier(result_itasset)))),None,None,None))))
+2016-04-08 19:13:17.623+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH itasset WHERE (ID(itasset) IS NULL) MATCH itasset-[rel1:`NEEDS`]->(result_need:`ItAsset`) RETURN COUNT(result_need) AS count
+2016-04-08 19:13:17.624+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(itasset)),List(),None,true)))),List(),Some(Where(IsNull(FunctionInvocation(FunctionName(ID),false,Vector(Identifier(itasset))))))), Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(itasset)),List(),None,true),RelationshipPattern(Some(Identifier(rel1)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(result_need)),List(),None,false))))),List(),Some(Where(HasLabels(Identifier(result_need),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(FunctionInvocation(FunctionName(COUNT),false,Vector(Identifier(result_need))),Identifier(count)))),None,None,None))))
+2016-04-08 19:13:18.267+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2016-04-08 19:13:18.682+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [10]:  Starting check pointing...
+2016-04-08 19:13:18.683+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [10]:  Starting store flush...
+2016-04-08 19:13:18.689+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 10 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:13:18.690+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 10 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:13:18.691+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [10]:  Store flush completed
+2016-04-08 19:13:18.691+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [10]:  Starting appending check point entry into the tx log...
+2016-04-08 19:13:18.692+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [10]:  Appending check point entry into the tx log completed
+2016-04-08 19:13:18.692+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [10]:  Check pointing completed
+2016-04-08 19:13:18.692+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:13:18.692+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:13:28.270+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2016-04-08 19:13:48.266+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2016-04-08 19:13:58.266+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2016-04-08 19:18:18.779+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Starting check pointing...
+2016-04-08 19:18:18.781+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Starting store flush...
+2016-04-08 19:18:18.788+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 11 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:18:18.789+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 11 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:18:18.790+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Store flush completed
+2016-04-08 19:18:18.790+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Starting appending check point entry into the tx log...
+2016-04-08 19:18:18.791+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Appending check point entry into the tx log completed
+2016-04-08 19:18:18.791+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [11]:  Check pointing completed
+2016-04-08 19:18:18.791+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:18:18.791+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:30:19.011+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Starting check pointing...
+2016-04-08 19:30:19.012+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Starting store flush...
+2016-04-08 19:30:19.013+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 13 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:30:19.013+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 13 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:30:19.015+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Store flush completed
+2016-04-08 19:30:19.015+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Starting appending check point entry into the tx log...
+2016-04-08 19:30:19.016+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Appending check point entry into the tx log completed
+2016-04-08 19:30:19.016+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [13]:  Check pointing completed
+2016-04-08 19:30:19.016+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:30:19.016+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:30:56.360+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH a -[r]- b WHERE id(a) IN[0,1]
+AND id(b) IN[0,1]
+RETURN r;
+2016-04-08 19:30:56.361+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT2), Parameter(  AUTOINT3)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-08 19:35:25.545+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:35:25.547+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:35:25.615+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:35:25.616+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:35:28.271+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2016-04-08 19:35:29.095+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [14]:  Starting check pointing...
+2016-04-08 19:35:29.095+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [14]:  Starting store flush...
+2016-04-08 19:35:29.105+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 14 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:35:29.106+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 14 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:35:29.108+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [14]:  Store flush completed
+2016-04-08 19:35:29.108+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [14]:  Starting appending check point entry into the tx log...
+2016-04-08 19:35:29.109+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [14]:  Appending check point entry into the tx log completed
+2016-04-08 19:35:29.109+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [14]:  Check pointing completed
+2016-04-08 19:35:29.109+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:35:29.109+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:35:38.269+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2016-04-08 19:36:21.071+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH itasset WHERE (ID(itasset) IS NULL) MATCH itasset-[rel1:`NEEDS`]->(result_needs:`ItAsset`) RETURN result_needs
+2016-04-08 19:36:21.072+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(itasset)),List(),None,true)))),List(),Some(Where(IsNull(FunctionInvocation(FunctionName(ID),false,Vector(Identifier(itasset))))))), Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(itasset)),List(),None,true),RelationshipPattern(Some(Identifier(rel1)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(result_needs)),List(),None,false))))),List(),Some(Where(HasLabels(Identifier(result_needs),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(result_needs),Identifier(result_needs)))),None,None,None))))
+2016-04-08 19:37:47.086+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:37:47.087+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:37:47.181+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:37:47.182+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:37:48.268+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 4 unique values in sample of avg size 4 taken from index containing 4 entries
+2016-04-08 19:37:58.266+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 4 unique values in sample of avg size 4 taken from index containing 4 entries
+2016-04-08 19:38:12.218+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:38:12.219+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:38:12.296+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH itasset2 WHERE (ID(itasset2) = {ID_itasset2}) MATCH itasset2-[rel1:`NEEDS`]->(result_needs:`ItAsset`) RETURN result_needs
+2016-04-08 19:38:12.297+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(itasset2)),List(),None,true)))),List(),Some(Where(Equals(FunctionInvocation(FunctionName(ID),false,Vector(Identifier(itasset2))),Parameter(ID_itasset2))))), Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(itasset2)),List(),None,true),RelationshipPattern(Some(Identifier(rel1)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(result_needs)),List(),None,false))))),List(),Some(Where(HasLabels(Identifier(result_needs),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(result_needs),Identifier(result_needs)))),None,None,None))))
+2016-04-08 19:39:05.616+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH itasset WHERE (ID(itasset) IS NULL) MATCH itasset-[rel1:`NEEDS`]->(result_needs:`ItAsset`) RETURN result_needs
+2016-04-08 19:39:05.618+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(itasset)),List(),None,true)))),List(),Some(Where(IsNull(FunctionInvocation(FunctionName(ID),false,Vector(Identifier(itasset))))))), Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(itasset)),List(),None,true),RelationshipPattern(Some(Identifier(rel1)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(result_needs)),List(),None,false))))),List(),Some(Where(HasLabels(Identifier(result_needs),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(result_needs),Identifier(result_needs)))),None,None,None))))
+2016-04-08 19:39:35.053+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:39:35.054+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:39:35.108+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:39:35.109+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:39:37.966+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) OPTIONAL MATCH n-[:`NEEDS`]->needs WHERE (needs:`ItAsset`) RETURN n, [collect(needs)]
+2016-04-08 19:39:37.967+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(n),List(LabelName(ItAsset)))))), Match(true,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(n)),List(),None,true),RelationshipPattern(Some(Identifier(  UNNAMED37)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(needs)),List(),None,true))))),List(),Some(Where(HasLabels(Identifier(needs),List(LabelName(ItAsset)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(n)), AliasedReturnItem(FunctionInvocation(FunctionName(collect),false,Vector(Identifier(needs))),Identifier(  AGGREGATION90)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)), AliasedReturnItem(Collection(List(Identifier(  AGGREGATION90))),Identifier([collect(needs)])))),None,None,None))))
+2016-04-08 19:39:38.267+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 5 unique values in sample of avg size 5 taken from index containing 5 entries
+2016-04-08 19:39:48.267+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 5 unique values in sample of avg size 5 taken from index containing 5 entries
+2016-04-08 19:40:29.198+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Starting check pointing...
+2016-04-08 19:40:29.199+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Starting store flush...
+2016-04-08 19:40:29.206+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 20 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:40:29.207+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 20 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:40:29.212+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Store flush completed
+2016-04-08 19:40:29.212+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Starting appending check point entry into the tx log...
+2016-04-08 19:40:29.213+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Appending check point entry into the tx log completed
+2016-04-08 19:40:29.213+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Check pointing completed
+2016-04-08 19:40:29.213+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:40:29.213+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:42:12.551+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n) RETURN n LIMIT 100
+2016-04-08 19:42:12.552+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(SignedDecimalIntegerLiteral(100)))))))
+2016-04-08 19:42:42.982+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (result_itasset:`ItAsset`) RETURN result_itasset ORDER BY result_itasset.name
+2016-04-08 19:42:42.983+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(result_itasset)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(result_itasset),List(LabelName(ItAsset)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(result_itasset),Identifier(  FRESHID40)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID40),Identifier(  FRESHID40)), AliasedReturnItem(Property(Identifier(  FRESHID40),PropertyKeyName(name)),Identifier(  FRESHID79)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID79))))),None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID40),Identifier(  FRESHID40)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID40),Identifier(result_itasset)))),None,None,None))))
+2016-04-08 19:43:08.446+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:43:08.447+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:43:08.504+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:43:08.505+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:43:18.267+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 6 unique values in sample of avg size 6 taken from index containing 6 entries
+2016-04-08 19:43:28.266+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 6 unique values in sample of avg size 6 taken from index containing 6 entries
+2016-04-08 19:44:04.128+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:44:04.129+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:44:04.185+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:44:04.186+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:44:08.269+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 7 unique values in sample of avg size 7 taken from index containing 7 entries
+2016-04-08 19:44:18.265+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 7 unique values in sample of avg size 7 taken from index containing 7 entries
+2016-04-08 19:45:17.230+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:45:17.231+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:45:17.318+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:45:17.319+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:45:18.269+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 8 unique values in sample of avg size 8 taken from index containing 8 entries
+2016-04-08 19:45:28.267+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 8 unique values in sample of avg size 8 taken from index containing 8 entries
+2016-04-08 19:45:29.299+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [23]:  Starting check pointing...
+2016-04-08 19:45:29.299+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [23]:  Starting store flush...
+2016-04-08 19:45:29.320+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 23 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:45:29.321+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 23 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:45:29.322+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [23]:  Store flush completed
+2016-04-08 19:45:29.322+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [23]:  Starting appending check point entry into the tx log...
+2016-04-08 19:45:29.323+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [23]:  Appending check point entry into the tx log completed
+2016-04-08 19:45:29.323+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [23]:  Check pointing completed
+2016-04-08 19:45:29.323+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:45:29.323+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:48:38.821+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:48:38.822+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:48:38.866+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:48:38.866+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:48:43.246+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH itasset WHERE (ID(itasset) IS NULL) MATCH itasset-[rel1:`NEEDS`]->(result_needs:`ItAsset`) RETURN result_needs
+2016-04-08 19:48:43.247+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(itasset)),List(),None,true)))),List(),Some(Where(IsNull(FunctionInvocation(FunctionName(ID),false,Vector(Identifier(itasset))))))), Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(itasset)),List(),None,true),RelationshipPattern(Some(Identifier(rel1)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(result_needs)),List(),None,false))))),List(),Some(Where(HasLabels(Identifier(result_needs),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(result_needs),Identifier(result_needs)))),None,None,None))))
+2016-04-08 19:48:48.265+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 9 unique values in sample of avg size 9 taken from index containing 9 entries
+2016-04-08 19:48:58.270+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 9 unique values in sample of avg size 9 taken from index containing 9 entries
+2016-04-08 19:49:11.244+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:49:11.245+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:49:11.299+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:49:11.300+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:49:18.266+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(uuid) with 10 unique values in sample of avg size 10 taken from index containing 10 entries
+2016-04-08 19:49:28.267+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :ItAsset(name) with 10 unique values in sample of avg size 10 taken from index containing 10 entries
+2016-04-08 19:49:56.063+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:49:56.063+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:49:56.129+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:49:56.130+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:50:03.671+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) OPTIONAL MATCH n-[:`NEEDS`]->needs WHERE (needs:`ItAsset`) RETURN n, [collect(needs)]
+2016-04-08 19:50:03.672+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(n),List(LabelName(ItAsset)))))), Match(true,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(n)),List(),None,true),RelationshipPattern(Some(Identifier(  UNNAMED37)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(needs)),List(),None,true))))),List(),Some(Where(HasLabels(Identifier(needs),List(LabelName(ItAsset)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(n)), AliasedReturnItem(FunctionInvocation(FunctionName(collect),false,Vector(Identifier(needs))),Identifier(  AGGREGATION90)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)), AliasedReturnItem(Collection(List(Identifier(  AGGREGATION90))),Identifier([collect(needs)])))),None,None,None))))
+2016-04-08 19:50:21.451+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH itasset3 WHERE (ID(itasset3) = {ID_itasset3}) MATCH itasset3-[rel1:`NEEDS`]->(result_needs:`ItAsset`) RETURN result_needs
+2016-04-08 19:50:21.452+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(itasset3)),List(),None,true)))),List(),Some(Where(Equals(FunctionInvocation(FunctionName(ID),false,Vector(Identifier(itasset3))),Parameter(ID_itasset3))))), Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(itasset3)),List(),None,true),RelationshipPattern(Some(Identifier(rel1)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(result_needs)),List(),None,false))))),List(),Some(Where(HasLabels(Identifier(result_needs),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(result_needs),Identifier(result_needs)))),None,None,None))))
+2016-04-08 19:50:21.471+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (result_itasset:`ItAsset`) RETURN result_itasset ORDER BY result_itasset.name
+2016-04-08 19:50:21.472+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(result_itasset)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(result_itasset),List(LabelName(ItAsset)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(result_itasset),Identifier(  FRESHID40)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID40),Identifier(  FRESHID40)), AliasedReturnItem(Property(Identifier(  FRESHID40),PropertyKeyName(name)),Identifier(  FRESHID79)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID79))))),None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID40),Identifier(  FRESHID40)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID40),Identifier(result_itasset)))),None,None,None))))
+2016-04-08 19:50:29.402+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [26]:  Starting check pointing...
+2016-04-08 19:50:29.402+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [26]:  Starting store flush...
+2016-04-08 19:50:29.410+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 26 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:50:29.412+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 26 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b].
+2016-04-08 19:50:29.417+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [26]:  Store flush completed
+2016-04-08 19:50:29.417+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [26]:  Starting appending check point entry into the tx log...
+2016-04-08 19:50:29.418+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [26]:  Appending check point entry into the tx log completed
+2016-04-08 19:50:29.418+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [26]:  Check pointing completed
+2016-04-08 19:50:29.418+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:50:29.418+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:50:35.346+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:50:35.347+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:51:04.255+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:51:04.256+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:51:10.162+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:51:10.162+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:51:24.618+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:51:24.619+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:51:54.009+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH itasset2 WHERE (ID(itasset2) = {ID_itasset2}) MATCH itasset2-[rel1:`NEEDS`]->(result_needs:`ItAsset`) RETURN result_needs
+2016-04-08 19:51:54.009+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(itasset2)),List(),None,true)))),List(),Some(Where(Equals(FunctionInvocation(FunctionName(ID),false,Vector(Identifier(itasset2))),Parameter(ID_itasset2))))), Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(itasset2)),List(),None,true),RelationshipPattern(Some(Identifier(rel1)),false,List(RelTypeName(NEEDS)),None,None,OUTGOING),NodePattern(Some(Identifier(result_needs)),List(),None,false))))),List(),Some(Where(HasLabels(Identifier(result_needs),List(LabelName(ItAsset)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(result_needs),Identifier(result_needs)))),None,None,None))))
+2016-04-08 19:52:10.075+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:52:10.076+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:53:47.918+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:53:47.919+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:53:57.910+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:53:57.911+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:55:05.754+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2016-04-08 19:55:05.755+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(n),Identifier(  FRESHID53)))),None,None,None,None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)), AliasedReturnItem(Property(Identifier(  FRESHID53),PropertyKeyName(uuid)),Identifier(  FRESHID66)))),Some(OrderBy(Vector(AscSortItem(Identifier(  FRESHID66))))),None,Some(Limit(Parameter(limit_1))),None), With(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(  FRESHID53),Identifier(  FRESHID53)))),None,None,None,None), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(  FRESHID53),Identifier(n)))),None,None,None))))
+2016-04-08 19:55:12.799+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:`ItAsset`) WHERE (n.uuid = {n_uuid}) RETURN n LIMIT {limit_1}
+2016-04-08 19:55:12.800+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(And(HasLabels(Identifier(n),List(LabelName(ItAsset))),Equals(Property(Identifier(n),PropertyKeyName(uuid)),Parameter(n_uuid)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(Parameter(limit_1)))))))
+2016-04-08 19:55:29.504+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [40]:  Starting check pointing...
+2016-04-08 19:55:29.506+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [40]:  Starting store flush...
+2016-04-08 19:55:29.507+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 40 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:55:29.508+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 40 to [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.b], from [/Users/btihen/dev/ruby/it_needs/db/neo4j/development/data/graph.db/neostore.counts.db.a].
+2016-04-08 19:55:29.510+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [40]:  Store flush completed
+2016-04-08 19:55:29.510+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [40]:  Starting appending check point entry into the tx log...
+2016-04-08 19:55:29.510+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [40]:  Appending check point entry into the tx log completed
+2016-04-08 19:55:29.511+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [40]:  Check pointing completed
+2016-04-08 19:55:29.511+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:55:29.511+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 20:04:48.012+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 476887ms.
+2016-04-08 20:06:59.007+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 72065ms.
+2016-04-08 20:09:24.009+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 94061ms.

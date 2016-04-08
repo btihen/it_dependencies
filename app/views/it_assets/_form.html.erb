@@ -1,0 +1,29 @@
+<%= form_for(@it_asset) do |f| %>
+  <% if @it_asset.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@it_asset.errors.count, "error") %> prohibited this it_asset from being saved:</h2>
+
+      <ul>
+      <% @it_asset.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :category %><br>
+    <%= f.select( :category, ItAsset::IT_ASSET_CATEGORIES, include_blank: true ) %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label 'Depends On' %><br>
+    <%= f.select :need_ids, options_from_collection_for_select(ItAsset.order(:name), :id, :name, @it_asset.needs.map(&:id)), {include_blank: true}, {multiple: true, size: 10} %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
